@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(201, 193, 193);
+}
+header{
+    background-color: rgb(0, 174, 255);
+    text-align: center;
+    padding: 20px 20px;
+}
+span.title{
+    font-weight: bold;
+    color: white;
+}
+span.subtitle{
+    color: gray;
+    font-size: small;
+}
+.card{
+    background-color: white;
+}
+
+.figure{
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example-square{
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.result-luas{
+    visibility: hidden;
+}
